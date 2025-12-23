@@ -1,0 +1,9 @@
+CREATE DATABASE DataWarehouse
+WITH
+OWNER = postgres
+ENCODING = 'UTF8';
+
+CREATE SCHEMA bronze;
+CREATE SCHEMA silver;
+CREATE SCHEMA gold;
+
